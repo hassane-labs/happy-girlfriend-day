@@ -16,36 +16,36 @@
         "id": "v1",
         "titre": "Tu merite largements tous les compliments du mode",
         "description": "Mon oasis ",
-        "miniature": "images/videos/video-1.mp4",
-        "source": ""
+        "miniature": "images/videos/video-1.jpg",
+        "source": "videos/video-1.mp4"
       },
       {
         "id": "v2",
         "titre": "Je n'irais nulle part sans toi",
         "description": "Notre voyage se fera ensemble...",
-        "miniature": "images/videos/video-2.mp4",
-        "source": ""
+        "miniature": "images/videos/video-2.jpg",
+        "source": "videos/video-2.mp4"
       },
       {
         "id": "v3",
         "titre": "En quelques secondes, tu arrive a illumner mes journées",
         "description": "Des instants , gravé pour toujours dans mon coeur...",
-        "miniature": "images/videos/video-3.mp4",
-        "source": ""
+        "miniature": "images/videos/video-3.jpg",
+        "source": "videos/video-3.mp4"
       },
       {
         "id": "v5",
         "titre": "Pour te faire sourire aujourd'hui",
         "description": "Bonne fete...",
-        "miniature": "images/videos/video-4.mp4",
-        "source": ""
+        "miniature": "images/videos/video-4.jpg",
+        "source": "videos/video-4.mp4"
       },
       {
         "id": "v4",
         "titre": "La lumiére ne tarrive pas à la cheville...",
         "description": "Continue de brillé...",
-        "miniature": "images/videos/video-5.mp4",
-        "source": ""
+        "miniature": "images/videos/video-5.jpg",
+        "source": "videos/video-5.mp4"
       }
     ]
   },
