@@ -1,0 +1,67 @@
+{
+  "prenom": "Dantou",
+  "accueil": {
+    "titreHaut": "Bonne fête Dantou",
+    "photo": "images/hero/hero-dantou.jpg",
+    "titre": "Bonne fête à toi, ma reine",
+    "texte": "Aujourd'hui, je voulais simplement créer quelque chose spécialement pour toi.",
+    "bouton": "J'ai un message pour toi",
+    "scrollHint": "Fais défiler pour continuer"
+  },
+  "galerie": {
+    "surTitre": "NOS VIDÉOS",
+    "titre": "Quelques moments pour toi",
+    "videos": [
+      {
+        "id": "v1",
+        "titre": "Tu merite largements tous les compliments du mode",
+        "description": "Mon oasis ",
+        "miniature": "images/videos/video-1.mp4",
+        "source": ""
+      },
+      {
+        "id": "v2",
+        "titre": "Je n'irais nulle part sans toi",
+        "description": "Notre voyage se fera ensemble...",
+        "miniature": "images/videos/video-2.mp4",
+        "source": ""
+      },
+      {
+        "id": "v3",
+        "titre": "En quelques secondes, tu arrive a illumner mes journées",
+        "description": "Des instants , gravé pour toujours dans mon coeur...",
+        "miniature": "images/videos/video-3.mp4",
+        "source": ""
+      },
+      {
+        "id": "v5",
+        "titre": "Pour te faire sourire aujourd'hui",
+        "description": "Bonne fete...",
+        "miniature": "images/videos/video-4.mp4",
+        "source": ""
+      },
+      {
+        "id": "v4",
+        "titre": "La lumiére ne tarrive pas à la cheville...",
+        "description": "Continue de brillé...",
+        "miniature": "images/videos/video-5.mp4",
+        "source": ""
+      }
+    ]
+  },
+  "message": {
+    "titreHaut": "Mon Message",
+    "encadreTitre": "Un petit mot pour toi",
+    "salutation": "Ma chère Dantou,",
+    "corps": [
+      "Il y a des personnes qui traversent une vie, et il y a celles qui la transforment. Depuis que tu es là, je regarde les choses simples autrement : un rire partagé, un silence confortable, une journée ordinaire qui devient un souvenir.",
+      "Je ne suis pas toujours parfait, et je sais que je me trompe parfois. Mais ce que je ressens pour toi ne change pas : c'est un mélange de tendresse, de fierté et d'envie de te voir heureuse, aujourd'hui et demain.",
+      "Merci pour ta patience, pour ta douceur, pour la façon dont tu rends tout plus léger. Merci d'accepter mes maladresses et de continuer à croire en nous.",
+      "En ce jour qui est le tien, je voulais juste que tu saches : tu comptes plus que tu ne l'imagines, et je suis reconnaissant chaque jour que tu fasses partie de ma vie."
+    ],
+    "signatureFete": "Bonne fête, Dantou",
+    "signatureCoeur": "Avec tout mon cœur.",
+    "photoFinale": "images/final/final-couple.jpg",
+    "cloture": "Merci d'être toi."
+  }
+}

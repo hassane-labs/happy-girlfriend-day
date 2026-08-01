@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Bonne fête Dantou</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Fond décoratif flouté -->
+<div class="bg-decor" aria-hidden="true"></div>
+
+<!-- Indicateur de progression (points, style story) -->
+<nav class="progress-dots" aria-label="Navigation entre les sections">
+  <button class="dot active" data-target="0" aria-label="Aller à l'accueil"></button>
+  <button class="dot" data-target="1" aria-label="Aller aux vidéos"></button>
+  <button class="dot" data-target="2" aria-label="Aller au message"></button>
+</nav>
+
+<main id="app" class="app">
+
+  <!-- ÉCRAN 1 : ACCUEIL -->
+  <section class="screen screen-accueil" id="screen-0" data-index="0">
+    <div class="hearts-float" aria-hidden="true"></div>
+    <header class="screen-header">
+      <h1 id="titreHautAccueil"></h1>
+    </header>
+
+    <div class="hero-photo-wrap">
+      <img id="heroPhoto" class="hero-photo" src="" alt="Photo souvenir">
+      <div class="hero-fade"></div>
+    </div>
+
+    <div class="accueil-content">
+      <h2 id="titreAccueil"></h2>
+      <p id="texteAccueil"></p>
+      <button class="btn-primary" id="btnMessage">
+        <svg class="icon-envelope" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="2.5" y="5" width="19" height="14" rx="2"/>
+          <path d="M3 6.5l9 6.5 9-6.5"/>
+        </svg>
+        <span id="texteBouton"></span>
+      </button>
+    </div>
+
+    <div class="scroll-hint">
+      <span id="scrollHintText"></span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M6 13l6 6 6-6"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ÉCRAN 2 : GALERIE VIDÉOS -->
+  <section class="screen screen-galerie" id="screen-1" data-index="1">
+    <header class="screen-header galerie-header">
+      <p class="sur-titre" id="surTitreGalerie"></p>
+      <h1 id="titreGalerie"></h1>
+    </header>
+
+    <div class="video-list" id="videoList" role="list"></div>
+
+    <button class="btn-top" id="btnTopGalerie" aria-label="Remonter en haut">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19V5M6 11l6-6 6 6"/>
+      </svg>
+      <span>top</span>
+    </button>
+  </section>
+
+  <!-- ÉCRAN 3 : MESSAGE -->
+  <section class="screen screen-message" id="screen-2" data-index="2">
+    <header class="screen-header">
+      <h1 id="titreHautMessage"></h1>
+    </header>
+
+    <div class="letter-card">
+      <div class="letter-title">
+        <svg class="icon-envelope" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="2.5" y="5" width="19" height="14" rx="2"/>
+          <path d="M3 6.5l9 6.5 9-6.5"/>
+        </svg>
+        <span id="encadreTitre"></span>
+      </div>
+      <p class="letter-salutation" id="salutation"></p>
+      <div class="letter-body" id="corpsLettre"></div>
+      <p class="letter-signature-fete" id="signatureFete"></p>
+      <p class="letter-signature-coeur" id="signatureCoeur"></p>
+    </div>
+
+    <div class="final-photo-wrap">
+      <img id="photoFinale" class="final-photo" src="" alt="Photo de couple">
+    </div>
+
+    <p class="cloture" id="cloture"></p>
+
+    <button class="btn-top" id="btnTopMessage" aria-label="Remonter en haut">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19V5M6 11l6-6 6 6"/>
+      </svg>
+      <span>top</span>
+    </button>
+  </section>
+
+</main>
+
+<!-- Modal lecteur vidéo -->
+<div class="video-modal" id="videoModal" aria-hidden="true">
+  <div class="video-modal-backdrop" id="videoModalBackdrop"></div>
+  <div class="video-modal-content">
+    <button class="video-modal-close" id="videoModalClose" aria-label="Fermer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="video-modal-body" id="videoModalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
